@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+    <servlet-name>DecryptServlet</servlet-name>
+    <servlet-class>servlets.DecryptServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DecryptServlet</servlet-name>
+    <url-pattern>/decrypt</url-pattern>
+  </servlet-mapping>
+</web-app>

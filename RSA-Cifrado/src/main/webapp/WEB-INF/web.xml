@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+    <servlet-name>EncryptServlet</servlet-name>
+    <servlet-class>servlets.EncryptServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EncryptServlet</servlet-name>
+    <url-pattern>/encrypt</url-pattern>
+  </servlet-mapping>
+</web-app>
